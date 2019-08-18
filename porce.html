@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="description" content="porcepic">
+
+    <meta property="og:title" content="porcepic">
+
+    <meta property="og:image"
+
+        content="https://aidemyexstorage.blob.core.windows.net/aidemycontents/1563446935183681.png">
+
+    <meta property="fb:app_id" content="1053319784857783">
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta name="twitter:site" content="@Porcepic38th">
+
+    <meta name="twitter:title" content="Porcepic38th">
+
+    <meta name="twitter:description" content="porcepic">
+
+    <meta name="twitter:image"
+
+        content="https://aidemyexstorage.blob.core.windows.net/aidemycontents/1563446935183681.png">
+
+    <meta property="og:image"
+
+        content="https://aidemyexstorage.blob.core.windows.net/aidemycontents/1563446935183681.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Porc-epic38th</title>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', () => {
+
+
+
+            // Get all "navbar-burger" elements
+
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+
+
+            // Check if there are any navbar burgers
+
+            if ($navbarBurgers.length > 0) {
+
+
+
+                // Add a click event on each of them
+
+                $navbarBurgers.forEach(el => {
+
+                    el.addEventListener('click', () => {
+
+
+
+                        // Get the target from the "data-target" attribute
+
+                        const target = el.dataset.target;
+
+                        const $target = document.getElementById(target);
+
+
+
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+
+                        el.classList.toggle('is-active');
+
+                        $target.classList.toggle('is-active');
+
+
+
+                    });
+
+                });
+
+            }
+
+
+
+        });
+
+    </script>
+
+    <script>
+
+        $(function () {
+
+            $(window).scroll(function () {
+
+                $('.abstract-items').each(function () {
+
+                    var elemPos = $(this).offset().top;
+
+                    var scroll = $(window).scrollTop();
+
+                    var windowHeight = $(window).height();
+
+                    if (scroll > elemPos - windowHeight) {
+
+                        $(this).addClass('effect-scroll');
+
+                    }
+
+                });
+
+            });
+
+        });
+
+    </script>
+
+</head>
+
+
+
+<body>
+
+    <div class="header">
+
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+
+            <div class="navbar-brand">
+
+
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+
+                    data-target="navbarBasicExample">
+
+                    <span aria-hidden="true"></span>
+
+                    <span aria-hidden="true"></span>
+
+                    <span aria-hidden="true"></span>
+
+                </a>
+
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+
+                <div class="navbar-end">
+
+                    <div class="navbar-item">
+
+                        <a href="#about">ホーム</a>
+
+                    </div>
+
+                    <div class="navbar-item">
+
+                        <a href="#events">メンバー</a>
+
+                    </div>
+
+                    <div class="navbar-item">
+
+                        <a href="#abstract">活動・日程</a>
+
+                    </div>
+
+                    <div class="navbar-item">
+
+                        <a href="#form">連絡フォーム</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </div>
+
+    <div class="main">
+
+        <div class="hero">
+
+            <div class="hero-container">
+
+            
+
+                <div class="hero-title">
+
+                    <p>早稲田大学のテニスサークルの『ポルケピック』です！<br>女子はインカレで主に女子大になってます。<br>練習は曜日不定で頻度は週1~2回ほど
+                    <br>アツい大学生活を送るなら是非ポルケへ！
+                </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="contents">
+
+            <a href="">
+
+                <div class="content">
+
+                    <p>ホーム</p>
+
+                </div>
+
+            </a>
+
+            <a href="">
+
+                <div class="content">
+
+                    <p>メンバー</p>
+
+                </div>
+
+            </a>
+
+            <a href="">
+
+                <div class="content">
+
+                    <p>活動・日程</p>
+
+                </div>
+
+            </a>
+
+            <a href="">
+
+                <div class="content">
+
+                    <p>連絡フォーム</p>
+
+                </div>
+
+            </a>
+
+            
+        </div>
+
+        <div class="whatisyourproject">
+
+            <p>Please come to Porc-epic</p>
+
+        </div>
+
+        <div class="current-project">
+
+            <div class="project-header"></div>
+
+            <div class="project-title">
+
+                <p>動画</p>
+
+            </div>
+
+        </div>
+
+        <div class="event-information">
+
+            <div class="event-header"></div>
+
+            <div class="event-title">
+
+                <p>活動の様子</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="foot">
+
+        <div class="foot-navi"></div>
+
+        <div class="sns-share"></div>
+
+        <div class="foot-title">
+
+            <p>Porc-epic38th</p>
+
+        </div>
+
+    </div>
+
+</body>
+
+
+
+</html>
