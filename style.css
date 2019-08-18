@@ -38,9 +38,9 @@ p {
 
 .header-logo {
 
-    width: 112px;
+    width: 100px;
 
-    height: 28px;
+    height: 1oopx;
 
     margin: auto 0;
 
@@ -108,16 +108,6 @@ p {
 
 
 
-@media screen and (max-width: 790px) { 
-
-    .content {
-
-        width: 400px
-
-    }
-
-
-
     .hero-contents {
 
         bottom: 400px;
@@ -125,16 +115,6 @@ p {
     }
 
 }
-
-
-
-@media screen and (max-width: 500px) {
-
-    .contact {
-
-        width: 340px;
-
-    }
 
 
 
